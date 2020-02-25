@@ -1,0 +1,217 @@
+.map-box {
+  position: "relative";
+  height: 340px;
+  width: 580px;
+  margin-top: 135px;
+  margin-bottom: -50px;
+  border: 2px solid black;
+}
+
+.btn-ret-from-map {
+  width: 200px;
+  height: 32px;
+  background-color: #6e4503;
+  border: none;
+  color: white;
+  font-size: 10pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.position-exit-btn {
+  margin-top: 70px;
+}
+
+.box-to-display {
+  position: "relative";
+  width: 150px;
+  height: 60px;
+  /* background-color: rgba(232, 232, 232, .8); */
+  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 10px;
+  border-color: grey;
+  box-shadow: 7px 7px;
+  z-index: 1;
+}
+
+.place-style {
+  position: "relative";
+  width: 25px;
+  height: 25px;
+  left: 15px;
+  top: 15px;
+  padding-top: 7px;
+  border: 1px solid grey;
+  background-color: rgba(192, 192, 192, 0.8);
+  /* background-color: white; */
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  font-weight: 650;
+  padding: 4;
+  cursor: "pointer";
+  margin-top: -10px;
+  z-index: 0;
+}
+
+.place-style-hover .place-style {
+  position: "relative";
+  border: 5px solid grey;
+  color: black;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.intel_font {
+  font-size: .9em;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  color: #354b66;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  padding-left: 0;
+  padding-right: 2px;
+  margin-right: 2px;
+  width: 150px;
+}
+
+.map-size {
+  width: 180px;
+  height: 180px;
+}
+
+.exit-btn-msg {
+  font-size: .9em;
+  font-weight: 550;
+  color: #155a6b;
+  margin-top: 20px;
+}
+
+.map-bottom-space {
+  height: 50px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .map-box {
+    height: 230px;
+    width: 330px;
+    margin: 100px;
+    border: 2px solid black;
+    margin-top: 110px;
+    margin-bottom: -30px;
+  }
+
+  .btn-ret-from-map {
+    width: 120px;
+    height: 30px;
+    background-color: #6e4503;
+    border: none;
+    color: white;
+    font-size: .55em;
+    font-weight: 500;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: -55px;
+  }
+
+  .position-exit-btn {
+    margin-top: 55px;
+  }
+
+  .place-style {
+    position: "relative"; 
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    padding-top: 4px;
+    border: 2px solid grey;
+    background-color: rgba(192, 192, 192, 0.2);
+    /* background-color: white; */
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+    font-size: .8em;
+    font-weight: 650;
+    padding: 4;
+    cursor: "pointer";
+    margin-top: -10px;
+    z-index: 1;
+  }
+  
+  .place-style-hover .place-style {
+    position: "relative";
+    border: 5px solid grey;
+    color: black;
+  }
+  
+  .box-to-display {
+    position: "relative";
+    width: 110px;
+    height: 55px;
+    padding-left: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    border-color: grey;
+    box-shadow: 7px 7px;
+    z-index: 2;
+  }
+
+  .intel_font {
+    font-size: .9em;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    color: #354b66;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    margin-left: -2px;
+    padding-right: 2px;
+    margin-right: 2px;
+    width: 100px;
+  }
+
+  .exit-btn-msg {
+    font-size: .65em;
+    font-weight: 550;
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-right: -75px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .map-box {
+    height: 180px;
+    width: 260px;
+    margin: 100px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .exit-btn-msg {
+    font-size: .8em;
+    font-weight: 550;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}

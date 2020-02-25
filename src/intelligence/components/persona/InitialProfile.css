@@ -1,0 +1,518 @@
+div.fixedsize_initProfile {
+  height: 700px;
+  width: 100%;
+  /* background-color: white; */
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.btn-submit_initprofile {
+  width: 100px;
+  height: 30px;
+  background-color: #555f6b;
+  border: none;
+  color: white;
+  font-size: 9pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+}
+
+.btn-save-edit {
+  width: 100px;
+  height: 30px;
+  background-color: #555f6b;
+  border: none;
+  color: white;
+  font-size: 9pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+}
+
+.btn_load_to_cloud_pro {
+  width: 100px;
+  height: 32px;
+  background-color: #383a85;
+  border: none;
+  color: white;
+  font-size: 10pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+}
+
+.header_text_prof {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+div.col-input-position {
+  padding-left: 15px;
+}
+
+/* .main {
+  width: 9%;
+}
+
+.main > textarea {
+  width: inherit;
+  margin-left: 10px;
+} */
+
+.geo-position {
+  width: 100%;
+  font-size: 0.8em;
+  /* border-style: dotted; */
+  margin-left: 2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+div.message_text {
+  font-size: 1em;
+  padding-left: 12px;
+}
+
+.phoneFlag {
+  margin-top: 3px;
+}
+
+.review-text {
+  font-size: 1em;
+  text-align: left;
+}
+
+.spacing_below {
+  height: 150px;
+}
+
+.buffer_below {
+  height: 30px;
+}
+
+.highlight-pro {
+  background-color: rgb(188, 185, 236);
+}
+
+.dropzone-pro {
+  height: 180px;
+  width: 280px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  padding-bottom: 1px;
+  margin-left: 15%;
+  margin-top: 30px;
+  padding-left: 3px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.icon-pro {
+  opacity: 0.8;
+  height: 130px;
+  width: 200px;
+}
+
+.fileInput-pro {
+  display: none;
+}
+
+.upload_message_pro {
+  margin-top: 30px;
+  margin-left: -15px;
+  font-size: 1em;
+}
+
+.pic_caption_msg_pro {
+  font-size: 0.7em;
+  margin-top: -5px;
+  margin-bottom: 4px;
+}
+
+.save_review_msg_pro {
+  /* margin-top: 30px; */
+  font-size: 1em;
+}
+
+.save_review_msg_pro_err {
+  font-size: 1em;
+  color: red;
+}
+
+.pic_msg_placement_pro {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.picture_review_card_pro {
+  height: 200px;
+  width: 300px;
+  background-color: #dde7eb;
+  border: none;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  padding-bottom: 1px;
+  margin-left: 5%;
+  margin-top: 30px;
+  padding-left: 3px;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.address-text {
+  font-size: 1em;
+  /* color: blue; */
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+.self-description {
+  width: 95%;
+  /* margin-left: 1%; */
+  font-size: 1em;
+}
+
+.addr-street-city {
+  font-size: 1em;
+  width: 90%;
+}
+
+.address-msg{
+  font-size: 1em;
+  font-weight: 650;
+  color: #192885;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.addr-zip {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: -20px;
+}
+
+.addr-country {
+  width: 90%;
+}
+
+.prof-name {
+  width: 90%;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; ipad-pro*/
+  .header_text_prof {
+    font-size: 1.5em;
+    font-weight: 700;
+    /* color: blue; */
+  }
+
+  .main {
+    width: 90%;
+    /* background: gray; */
+    /* display: inline; */
+  }
+
+  .main > textarea {
+    width: inherit;
+    margin-left: 5px;
+  }
+
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  div.fixedsize_initProfile {
+    height: 550px;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .btn-submit_initprofile {
+    width: 70px;
+    height: 26px;
+    font-size: 8pt;
+  }
+
+  .btn-save-edit {
+    width: 35px;
+    height: 26px;
+    font-size: 7pt;
+  }
+
+  .btn_load_to_cloud_pro {
+    width: 75px;
+    height: 28px;
+    font-size: 9pt;
+    margin-top: -5px;
+  }
+
+  .header_text_prof {
+    font-size: 1em;
+    font-weight: 700;
+    /* color: blue; */
+  }
+
+  div.col-input-position {
+    padding-left: 15px;
+  }
+
+  .main {
+    font-size: 0.85em;
+  }
+
+  .main > textarea {
+    width: inherit;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    /* font-size: .8em; */
+  }
+
+  .col-input-position-l {
+    font-size: 0.8em;
+  }
+  .col-input-position-r {
+    font-size: 0.8em;
+  }
+
+  .geo-position {
+    font-size: 0.7em;
+  }
+
+  div.message_text {
+    font-size: 0.8em;
+    padding-left: 12px;
+    margin-top: -5px;
+  }
+
+  .review-text {
+    font-size: 0.85em;
+    text-align: left;
+  }
+
+  .spacing_below {
+    height: 20px;
+  }
+
+  .dropzone-pro {
+    height: 120px;
+    width: 150px;
+    font-size: 0.75em;
+    padding-bottom: 1px;
+    margin-top: -15px;
+    padding-left: 5px;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .icon-pro {
+    opacity: 0.8;
+    height: 85px;
+    width: 120px;
+  }
+
+  .upload_message_pro {
+    font-size: 0.68em;
+    margin-top: 20px;
+    margin-left: -10px;
+    font-weight: 600;
+  }
+
+  .pic_caption_msg_pro {
+    font-size: 0.7em;
+    margin-top: -3px;
+    margin-bottom: 9px;
+  }
+
+  .save_review_msg_pro {
+    font-size: 0.7em;
+  }
+
+  .save_review_msg_pro_err {
+    font-size: .7em;
+    color: red;
+  }
+
+  .picture_review_card_pro {
+    height: 180px;
+    width: 250px;
+    font-size: 16px;
+    padding-bottom: 1px;
+    margin-left: 15%;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+  }
+
+  .address-text {
+    font-size: 1em;
+    /* color: blue; */
+    margin-top: 5px;
+    margin-bottom: -15px;
+  }
+
+}
+
+@media only screen and (max-device-width: 320px) {
+  .dropzone-pro {
+    height: 100px;
+    width: 130px;
+    font-size: 0.75em;
+    padding-bottom: 1px;
+    margin-top: -15px;
+    padding-left: 5px;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
+  .icon-pro {
+    opacity: 0.8;
+    height: 75px;
+    width: 100px;
+    padding-right: 4px;
+  }
+
+  .save_review_msg_pro {
+    font-size: 0.7em;
+  }
+
+  .save_review_msg_pro_err {
+    font-size: .7em;
+    color: red;
+  }
+
+  .picture_review_card_pro {
+    height: 170px;
+    width: 240px;
+    font-size: 16px;
+    padding-bottom: 1px;
+    margin-left: 10%;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+  }
+
+  .address-text {
+    font-size: .9em;
+    /* color: blue; */
+    margin-top: 5px;
+    margin-bottom: -15px;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+  div.fixedsize_initProfile {
+    height: 900px;
+    width: 110%;
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+
+  .header_text_prof {
+    font-size: 1em;
+    font-weight: 700;
+    /* color: purple; */
+  }
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+  div.fixedsize_initProfile {
+    height: 870px;
+    width: 109%;
+    margin-left: -30px;
+  }
+
+  .btn_load_to_cloud_pro {
+    width: 110px;
+    height: 34px;
+    font-size: 1em;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+  }
+
+  .header_text_prof {
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+
+  .header_text_prof {
+    font-size: 1em;
+    font-weight: 700;
+    /* color: red; */
+  }
+
+  .col-input-position-l {
+    padding-left: -15px;
+  }
+
+  .col-input-position-r {
+    padding-left: 5px;
+  }
+
+  .main {
+    width: 100%;
+    /* background: gray; */
+    /* display: inline; */
+  }
+
+  .main > textarea {
+    width: inherit;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-right: 2px;
+    margin-bottom: -3px;
+  }
+
+  .col-input-position-l {
+    /* padding-right: 5px;   */
+    font-size: 1em;
+  }
+  .col-input-position-r {
+    font-size: 1em;
+    /* margin-left: -5px; */
+  }
+
+  .dropzone-pro {
+    /* background-color: red; */
+    height: 200px;
+    width: 300px;
+    margin-left: 10%;
+  }
+
+  .upload_message_pro {
+    margin-left: -25px;
+  }
+
+  p.pic_caption_msg_pro {
+    font-size: 0.9em;
+    margin-top: -5px;
+  }
+
+  .picture_review_card_pro {
+    height: 200px;
+    width: 280px;
+    font-size: 16px;
+    padding-bottom: 1px;
+    margin-left: 15%;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+  }
+}

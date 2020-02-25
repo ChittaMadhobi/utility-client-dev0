@@ -1,0 +1,121 @@
+.top-padding {
+  margin-top: 50px;
+}
+
+.btn-login {
+  width: 120px;
+  height: 32px;
+  background-color: #097526;
+  padding-top: 2px;
+  border: none;
+  color: white;
+  font-size: 12pt;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px 0px black;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.btn-login-forgot {
+  width: 120px;
+  height: 32px;
+  background-color: #755109;
+  padding-top: 2px;
+  border: none;
+  color: white;
+  font-size: 12pt;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px 0px black;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.checkbox_div {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.login_input {
+  font-size: 1em;
+  font-weight: 600;
+  width: 100%;
+}
+
+.reset-err-msg{
+  font-size: 1em;
+  color: red;
+}
+
+.reset-msg{
+  font-size: 1em;
+  color: black;
+}
+
+.reset-direction {
+  font-size: 1em;
+  color: black;
+}
+
+@media only screen and (max-device-width: 375px) {
+  .reset-err-msg{
+    font-size: .85em;
+  }
+  
+  .reset-msg{
+    font-size: .85em;
+  }
+
+  .reset-direction {
+    font-size: .85em;
+    color: black;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .btn-login {
+    width: 80px;
+    height: 28px;
+    padding-top: 2px;
+    font-size: 10pt;
+    font-weight: 500;
+    border-radius: 4px;
+  }
+
+  .btn-login-forgot {
+    width: 80px;
+    height: 28px;
+    font-size: 12pt;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+
+  .checkbox_div {
+    font-size: .8em;
+    font-weight: 600;
+    margin-top: -5px;
+  }
+
+  .login_input {
+    font-size: .9em;
+    font-weight: 600;
+    width: 100%;
+    margin-top: -5px;
+  }
+
+  .reset-err-msg{
+    font-size: .9em;
+  }
+  
+  .reset-msg{
+    font-size: .9em;
+  }
+
+  .reset-direction {
+    font-size: .9em;
+    color: black;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}

@@ -1,0 +1,52 @@
+div.fixedsize-charts {
+  height: 550px;
+  width: 100%;
+  /* background-color: #1a3c72; */
+  background-color: black;
+  color: #fffaea;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 450px;
+}
+
+.visual_chart_top_space {
+  height: 120px;
+}
+
+.text-color {
+  color: #fffaea;
+  fill: red !important
+}
+
+.body-color {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-device-width: 375px) {
+  div.fixedsize-charts {
+    height: 450px;
+    width: 100%;
+    /* background-color: #c3d0e6; */
+    /* color: black; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 550px;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  div.fixedsize-charts {
+    height: 500px;
+    width: 100%;
+    /* background-color: #c3d0e6; */
+    /* color: black; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 550px;
+  }
+
+  div.visual_chart_top_space{
+    height: 50px;
+  }
+}

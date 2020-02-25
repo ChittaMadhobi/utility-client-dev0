@@ -1,0 +1,101 @@
+.btn_register {
+  width: 160px;
+  height: 34px;
+  background-color: #753c07;
+  border: none;
+  color: white;
+  font-size: 12pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+}
+
+.reg-msg {
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  margin-top: 10px;
+}
+
+.reg-msg-err {
+  font-size: 1em;
+  font-weight: 600;
+  color: red;
+  margin-top: 10px;
+}
+/* ---------- Adjust based on medaia sizes ------------------ */
+/* For browser larger than 960 px */
+@media only screen and (min-width: 960px) {
+}
+/* For browser larger than 1440 px */
+@media only screen and (min-width: 1440px) {
+}
+/* For browser large sumo size - more than 2000 px - huge*/
+@media only screen and (min-width: 2000px) {
+}
+
+/* styles for mobile browsers smaller than 480px; (iPhone small) */
+@media only screen and (max-device-width: 375px) {
+  .reg-msg {
+    font-size: 0.85em;
+    font-weight: 550;
+  }
+
+  .reg-msg-err {
+    font-size: 0.85em;
+    font-weight: 550;
+  }
+
+  .btn_register {
+    width: 130px;
+    height: 32px;
+    font-size: 11pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+  }
+}
+
+/* styles for mobile browsers smaller than 480px; (iPhone +) */
+@media only screen and (max-device-width: 480px) {
+  .reg-msg {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
+  .reg-msg-err {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
+  .btn_register {
+    width: 130px;
+    height: 32px;
+    font-size: 11pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  /* styles for browsers larger than 320px iphone5; */
+  .reg-msg {
+    font-size: 0.85em;
+    font-weight: 550;
+  }
+
+  .reg-msg-err {
+    font-size: 0.85em;
+    font-weight: 550;
+  }
+
+  .btn_register {
+    width: 120px;
+    height: 30px;
+    font-size: 10pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+  }
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}

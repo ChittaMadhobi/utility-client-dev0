@@ -1,0 +1,344 @@
+.lobby {
+  /* background-color: #e4d8cafb; */
+  background-color: #f2e7d5;
+}
+
+.btn-lobby {
+  width: 150px;
+  height: 40px;
+  background-color: #415447;
+  padding-top: 2px;
+  border: none;
+  color: white;
+  font-size: 14pt;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px 0px black;
+}
+
+.btn-lobby-starthere {
+  width: 120px;
+  height: 36px;
+  margin-bottom: 3px;
+  background-color: #555f6b;
+  border: none;
+  color: white;
+  font-size: 12pt;
+  border-radius: 3px;
+  box-shadow: 3px 3px 0px 0px black;
+}
+
+/* ---------- Header Section ---------- */
+.lobbyheader {
+  position: relative;
+  background: url("../../../images/banner3.jpg") no-repeat;
+  background-size: 80% 60px;
+  background-position: center;
+  height: 60px;
+  font-size: 1.3em;
+}
+
+.text_white {
+  color: #fff;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+/* ------domains for create, join communities, dashboard etc. ----------------- */
+div.space-between-domains {
+  height: 10px;
+  border: none;
+}
+
+.domain-box {
+  position: relative;
+  text-align: center;
+  background: url("../../../images/blue.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  margin-left: 15%;
+}
+
+.domain-box-header-text {
+  padding-top: 10px;
+  font-size: 1.75em;
+  font-family: "Georgia", Times, serif;
+  font-weight: bold;
+  color: #dfecf2;
+}
+
+.panel_text {
+  font-size: 1em;
+  color: #cee4ed;
+  font-weight: 700;
+}
+
+.joinMsg {
+  color: #aefaa2;
+  /* border: 1px solid #aefaa2; */
+  font-size: .9em;
+  margin-top: 5px;
+  height: 30px;
+  padding-top: 4px;
+  margin-bottom: 10px;
+}
+
+.bottom_spaces {
+  height: 30px;;
+}
+
+.banner-text {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #b0c6e8;
+  margin-top: 10px;
+}
+/* ---------- Adjust based on medaia sizes ------------------ */
+/* For browser larger than 960 px */
+@media only screen and (min-width: 960px) {
+  .lobbyheader {
+    background-size: 80% 60px;
+  }
+}
+/* For browser larger than 1440 px */
+@media only screen and (min-width: 1440px) {
+  .lobbyheader {
+    background-size: 80% 60px;
+  }
+}
+/* For browser large sumo size - more than 2000 px - huge*/
+@media only screen and (min-width: 2000px) {
+  .lobbyheader {
+    background-size: 80% 60px;
+  }
+}
+
+/* styles for mobile browsers smaller than 480px; (iPhone small) */
+@media only screen and (max-device-width: 375px) {
+  .lobbyheader {
+    background-size: 80% 60px;
+  }
+  .domain-box {
+    height: 145px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 10%;
+  }
+  .domain-box-header-text {
+    padding-top: 10px;
+    font-size: 0.5em;
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  div.space-between-domains {
+    height: 1px;
+    border: none;
+  }
+
+  .btn-lobby-starthere {
+    width: 90px;
+    height: 28px;
+    font-size: 9pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .panel_text {
+    font-size: .65em;
+    font-weight: 600;
+  }
+
+  .joinMsg {
+    font-size: .8em;
+    margin-top: 15px;
+    height: 20px;
+    padding-top: 3px;
+  }
+
+  .banner-text {
+    font-size: 1em;
+    font-weight: 600;
+  }
+}
+
+/* styles for mobile browsers smaller than 480px; (iPhone +) */
+@media only screen and (max-device-width: 480px) {
+  .lobbyheader {
+    background-size: 80% 35px;
+    height: 35px;
+    font-size: 1.1em;
+  }
+  .domain-box {
+    height: 135px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 10%;
+  }
+  .domain-box-header-text {
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  div.space-between-domains {
+    height: 7px;
+    border: none;
+  }
+  .btn-lobby {
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 10pt;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0px 0px black;
+  }
+
+  .btn-lobby-starthere {
+    width: 90px;
+    height: 28px;
+    font-size: 9pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .panel_text {
+    font-size: .75em;
+    font-weight: 600;
+  }
+
+  .joinMsg {
+    font-size: .75em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    padding-top: 2px;
+  }
+
+  .banner-text {
+    font-size: 1.2em;
+    font-weight: 650;
+    margin-top: 1px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  /* styles for browsers larger than 320px iphone5; */
+  .lobbyheader {
+    background-size: 80% 35px;
+    height: 35px;
+    font-size: 1.1em;
+  }
+
+  .banner-text {
+    font-size: 1.2em;
+    font-weight: 650;
+    margin-top: 1px;
+  }
+
+  .domain-box {
+    height: 115px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 10%;
+  }
+
+  .joinMsg {
+    font-size: .65em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    padding-top: 2px;
+  }
+
+  .btn-lobby {
+    width: 85px;
+    height: 28px;
+    color: white;
+    font-size: 9pt;
+    border-radius: 4px;
+    margin-bottom: -5px;
+    box-shadow: 3px 3px 0px 0px black;
+  }
+
+  .btn-lobby-starthere {
+    width: 80px;
+    height: 26px;
+    font-size: 9pt;
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+
+  div.space-between-domains {
+    height: 5px;
+    border: none;
+  }
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .domain-box {
+    height: 210px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 5%;
+  }
+  .domain-box-header-text {
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;
+    color: #dfecf2;
+  }
+  div.space-between-domains {
+    height: 20px;
+    border: none;
+  }
+
+  .btn-lobby-starthere {
+    width: 90px;
+    height: 28px;
+    /* color: blue; */
+    font-size: 9pt;
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+
+  .joinMsg {
+    font-size: 1em;
+    margin-top: 15px;
+    height: 25px;
+    padding-top: 4px;
+  }
+}
+
+/* @media only screen and (min-width: 960px) {
+    styles for browsers larger than 960px;
+}
+@media only screen and (min-width: 1440px) {
+    styles for browsers larger than 1440px;
+}
+@media only screen and (min-width: 2000px) {
+    for sumo sized (mac) screens
+}
+@media only screen and (max-device-width: 480px) {
+   styles for mobile browsers smaller than 480px; (iPhone)
+}
+@media only screen and (device-width: 768px) {
+   default iPad screens
+}
+    different techniques for iPad screening
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  For portrait layouts only
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  For landscape layouts only
+} */

@@ -1,0 +1,316 @@
+div.fixedsize-invoice {
+  height: 550px;
+  width: 100%;
+  /* background-color: #1a3c72; */
+  background-color: black;
+  color: #fffaea;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 450px;
+}
+
+.report-modal-button {
+  width: 80px;
+  height: 30px;
+  background-color: #9c583d;
+  border: none;
+  color: white;
+  font-size: 10pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+  margin-top: -4px;
+}
+
+.report-modal-remind-button {
+  width: 90px;
+  height: 30px;
+  background-color: #3272a6;
+  border: none;
+  color: white;
+  font-size: 10pt;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+  margin-top: -4px;
+}
+
+.report-header-text {
+  padding-top: 10px;
+  margin-bottom: -10px;
+  font-size: 1.1em;
+  color: white;
+  font-weight: 750;
+}
+
+div.start-here-msg {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.notes-text {
+  padding-top: 10px;
+  font-size: 1em;
+  /* font-family: "Georgia", Times, serif; */
+  /* font-weight: bold; */
+  /* color: #dfecf2; */
+}
+
+.modal-header-text {
+  padding-top: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+hr.inv-format {
+  color: white;
+  background-color: rgba(218, 229, 232, 0.5);
+  margin-top: 5px;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tag-format {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #d0e7f5;
+  margin-left: 4px;
+}
+
+.tag-format-special {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: rgba(240, 228, 209, 0.5);
+  margin-left: 4px;
+}
+
+.item-header-name {
+  margin-top: 5px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #f4f5d3;
+  margin-left: 2px;
+}
+
+.item-header-rest {
+  margin-top: 5px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #f4f5d3;
+  margin-left: -5px;
+}
+
+.header-item {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #f4f5d3;
+  margin-left: 4px;
+}
+
+.value-format {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 550;
+  color: #bbebfa;
+  margin-left: -5px;
+}
+
+.value-format-overdue {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 650;
+  color: red;
+  margin-left: -5px;
+  margin-top: 8px;
+}
+
+.value-format-special {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 550;
+  color: rgba(240, 228, 209, 0.5);
+  margin-left: -5px;
+}
+
+.email-sent-msg {
+  font-size: 1em;
+  font-weight: 700;
+  color: #fafac0;
+}
+
+.inv_details_space {
+  height: 30px;
+}
+
+@media only screen and (min-width: 960px) {
+  .notes-text {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .notes-text {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .notes-text {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  div.fixedsize-invoice {
+    height: 450px;
+    width: 100%;
+    /* background-color: #c3d0e6; */
+    /* color: black; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 550px;
+  }
+
+  .report-modal-button {
+    width: 60px;
+    height: 28px;
+    background-color: #9c583d;
+    border: none;
+    color: white;
+    font-size: 8pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: -4px;
+  }
+
+  .report-modal-remind-button {
+    width: 70px;
+    height: 28px;
+    background-color: #3272a6;
+    border: none;
+    color: white;
+    font-size: 8pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: -4px;
+  }
+
+  .notes-text {
+    font-size: 0.7em;
+  }
+  .modal-header-text {
+    font-size: 0.5em;
+  }
+  .item-header-rest {
+    margin-top: 5px;
+    font-size: 0.55em;
+    font-weight: 500;
+    color: #f4f5d3;
+    margin-left: -5px;
+  }
+
+  .value-format {
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-weight: 550;
+    color: #bbebfa;
+    margin-left: -5px;
+  }
+
+  .value-format-overdue {
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-weight: 550;
+    color: red;
+    margin-left: -5px;
+  }
+
+  .email-sent-msg {
+    font-size: .8em;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  div.fixedsize-invoice {
+    height: 500px;
+    width: 100%;
+    /* background-color: #c3d0e6; */
+    /* color: black; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 550px;
+  }
+
+  .report-modal-button {
+    width: 60px;
+    height: 28px;
+    background-color: #9c583d;
+    border: none;
+    color: white;
+    font-size: 8pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: -4px;
+  }
+
+  .report-modal-remind-button {
+    width: 70px;
+    height: 28px;
+    background-color: #3272a6;
+    border: none;
+    color: white;
+    font-size: 8pt;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: -4px;
+  }
+
+  .notes-text {
+    font-size: 1em;
+  }
+  .modal-header-text {
+    font-size: 0.8em;
+  }
+
+  .item-header-rest {
+    margin-top: 5px;
+    font-size: 0.55em;
+    font-weight: 500;
+    color: #f4f5d3;
+    margin-left: -5px;
+  }
+
+  .value-format {
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-weight: 550;
+    color: #bbebfa;
+    margin-left: -5px;
+  }
+
+  .value-format-overdue {
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-weight: 650;
+    color: red;
+    margin-left: -5px;
+    margin-top: 8px;
+  }
+
+  .email-sent-msg {
+    font-size: .8em;
+    font-weight: 650;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .notes-text {
+    font-size: 0.9em;
+  }
+  .modal-header-text {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #f2e7d5;
+}
+
+.total-space {
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar-space {
+  margin-top: 64px;
+  text-align: center;
+}
+

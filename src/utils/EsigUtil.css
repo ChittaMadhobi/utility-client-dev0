@@ -1,0 +1,94 @@
+.btn_esig {
+  width: 100px;
+  height: 32px;
+  background-color: #136128;
+  border: none;
+  color: white;
+  font-size: 11pt;
+  font-weight: 750;
+  box-shadow: 3px 3px 0px 0px black;
+  border-radius: 5px;
+  margin-top: 10px;
+  /* margin-left: -30px; */
+}
+
+.btn_sign_deal {
+    width: 120px;
+    height: 32px;
+    background-color: #136128;
+    border: none;
+    color: white;
+    font-size: 11pt;
+    font-weight: 750;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn_sign_deal_red {
+    width: 100px;
+    height: 32px;
+    background-color: #a6271e;
+    border: none;
+    color: white;
+    font-size: 11pt;
+    font-weight: 750;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .btn_esig {
+    width: 60px;
+    height: 30px;
+    font-size: 10pt;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .btn_sign_deal {
+    width: 100px;
+    height: 30px;
+    font-size: 10pt;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .btn_sign_deal_red {
+    width: 80px;
+    height: 30px;
+    font-size: 10pt;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .btn_esig {
+    width: 80px;
+    height: 30px;
+    font-size: 10pt;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .btn_sign_deal {
+    width: 90px;
+    height: 30px;
+    font-size: 9pt;
+    font-weight: 550;
+    margin-top: 10px;
+  }
+
+  .btn_sign_deal_red {
+    width: 80px;
+    height: 30px;
+    font-size: 9pt;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
