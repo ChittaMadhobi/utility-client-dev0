@@ -16,7 +16,9 @@ import "../../../modal/css/template.css";
 import { postUserProfile } from "../../../actions/authActions";
 
 import ReactLoading from "react-loading";
-import cosmicDoorway from "../../../communityCreate/components/image/cosmicDoorway.jpg";
+// import cosmicDoorway from "../../../communityCreate/components/image/cosmicDoorway.jpg";
+import cosmicDoorway from "../../../images/cosmicDoorway.jpg";
+
 
 import "./InitialProfile.css";
 
