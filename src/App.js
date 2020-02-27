@@ -10,6 +10,7 @@ import Navbar from "./entrance/components/layout/Navbar/Navbar";
 import Footer from "./entrance/components/layout/Footer/Footer";
 
 import Lobby from "./entrance/components/layout/Lobby";
+import logDash from "./modal/components/displays/logDash/logDash"
 
 import Login from "./entrance/components/auth/Login";
 import Register from "./entrance/components/auth/Register";
@@ -63,6 +64,7 @@ class App extends Component {
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/lobby" component={Lobby} />
+              <Route exact path="/logDash" component={logDash} />
               <Route exact path="/myaccount" component={MyAccount} />
               {/* <Route exact path="/userinitpersona" component={UserInitPersona} />
               <Route exact path="/mirror" component={ShowPersona} />
