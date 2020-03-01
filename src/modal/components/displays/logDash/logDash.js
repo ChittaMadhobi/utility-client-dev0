@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import "./logDash.css";
-// import datePickers from "../datePickers/datePickers";
 import DatePicker from '../datePickers/datePickers';
-import LogTable from '../LogTable/LogTable';
+import LogTable from '../LogTable/logTable';
 
 class logDash extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    console.log(props)
+
+  this.state = {
+    // errorId: null,
+    // programName: null,
+    // messageType: null,
+    // date: null,
+    // message, null,
+    };
+  }
+
 
   render() {
     return (
@@ -27,7 +38,7 @@ class logDash extends Component {
 
         <DatePicker />
 
-        <h4 className="text-center">View Log</h4>
+        <h4 className="text-center">Log</h4>
 
         <LogTable />
       </>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./datePickers.css";
 
 class datePickers extends Component {
   state = {};
@@ -14,14 +15,14 @@ class datePickers extends Component {
 
         <div className="form-group col-sm-4"> 
         <div className="row">    
-          <label className="control-label col-sm-4" for="date">Start Date:</label>
+          <label className="control-label col-sm-4">Start Date:</label>
           <input className="form-control col-sm-4" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
         </div>
         </div>
       
         <div className="form-group col-sm-4 "> 
         <div className="row">    
-          <label className="control-label col-sm-4" for="date">End Date:</label>
+          <label className="control-label col-sm-4">End Date:</label>
           <input className="form-control col-sm-4" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
         </div>
         </div>

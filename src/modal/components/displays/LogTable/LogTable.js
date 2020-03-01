@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import './logTable.css'
 
 class LogTable extends Component {
     render() {
         return (
             <>
 
-              <table>
+              <table className="table table-hover">
+                  <thead className="thead-dark">
                   <tr>
                       <th>Error ID</th>
                       <th>Program Name</th>
@@ -14,14 +16,17 @@ class LogTable extends Component {
                       <th>Message</th>
                       <th>Details</th>
                   </tr>
+                  </thead>
+                  <tbody>
                   <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                      <td>test</td>
+                      <td>test</td>
+                      <td>test</td>
+                      <td>test</td>
+                      <td>test</td>
+                      <td>test</td>
                   </tr>
+                  </tbody>
               </table>
 
             </>
