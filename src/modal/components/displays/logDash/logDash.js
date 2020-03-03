@@ -3,6 +3,38 @@ import "./logDash.css";
 import DatePicker from '../datePickers/datePickers';
 import LogTable from '../LogTable/logTable';
 
+// const baandaServer = process.env.REACT_APP_BAANDA_SERVER;
+
+// //unsure about where to put this api??
+// const ifErrorExistsAPI = "/routes/dashboard/ifErrorExists?";
+ 
+
+// let params = "errorId=" + this.props.errorid + "&appName=" +
+// this.state.appName + "&errorType=" + this.state.errorType;
+
+// let url = baandaServer + ifErrorExistsAPI + params;
+
+// try {
+// let ret = await axios.get(url);
+
+// if (ret.data.status === "Error") {
+//   await this.setState({
+//     createErrorMsg: "Error exisits. Click to view details.",
+//     createErrorStatus: true
+//   });
+
+//   isValid = false;
+// } else {
+//   await this.setState({
+//     createErrorMsgErrFlag: false
+//   });
+// }
+// } catch (err) {
+// console.log("IfErrorExistsAPI Error:", err.message);
+// }
+
+
+
 class logDash extends Component {
   constructor(props) {
     super(props);
@@ -16,6 +48,8 @@ class logDash extends Component {
     // message, null,
     };
   }
+
+
 
 
   render() {
