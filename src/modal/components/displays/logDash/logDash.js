@@ -72,9 +72,9 @@ class logDash extends Component {
 
         <DatePicker />
 
-        <h4 className="text-center">Log</h4>
+        {/* <h4 className="text-center">Log</h4> */}
 
-        <LogTable />
+        {/* <LogTable /> */}
       </>
     );
   }

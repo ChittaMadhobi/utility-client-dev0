@@ -8,9 +8,9 @@ import Axios from "axios";
 class datePickers extends Component {
   state = {
     joinProess: "List",
-
+     
     selectPanelFlg: true,
-
+    showFullListFlg: false,
     retList: []
   };
 
@@ -23,7 +23,7 @@ class datePickers extends Component {
 
 
   handleFullList = async () => {
-    alert('I clicked the handle list ...')
+    // alert('I clicked the handle list ...')
     let url = '';
     let servername = 'http://localhost:5005';
     let apiName = '/routes/logs/readLog';
@@ -33,10 +33,16 @@ class datePickers extends Component {
     try {
       console.log('inside the try for get');
       let ret = await axios.get(url);
-      console.log('ret:', ret);
+      console.log('ret:', ret.data.Msg);
+      let listout = false;
+      if ( ret.data.Msg.length > 0) {
+        console.log('inside ret.length:', ret.data.Msg.length);
+        listout = true
+      }
       await this.setState({
-        retList: ret,
-        selectPanelFlg: false
+        retList: ret.data.Msg,
+        // selectPanelFlg: false
+        showFullListFlg: listout
       })
     } catch(err){
       console.log(err.message);
@@ -44,6 +50,13 @@ class datePickers extends Component {
   }
 
   render() {
+    console.log('this.state:', this.state.retList);
+    let xx1 = this.state.retList[0];
+    console.log('xx:', xx1);
+    console.log('typeof:', typeof xx1);
+    console.log(JSON.stringify(xx1));
+    let yy = JSON.stringify(xx1);
+    // let zz = JSON.parse(yy); 
 
     let filterTypeSelectionPanel = (
         <div className="row">
@@ -90,7 +103,7 @@ class datePickers extends Component {
     )
     
     let buttonPanel = (
-       <div>
+       <div className="text-center">
          <button 
            onClick={this.handleFullList}
            className="something"
@@ -99,24 +112,41 @@ class datePickers extends Component {
            </button>
        </div>
     )
+    
+  let listPanel;
+  if ( this.state.showFullListFlg) {
+    listPanel = (
+      <div>
+       this is my list panel
+       {/* {this.state.retList[0]} */}
+      </div>
+    );
+  } 
+
 
     let outpanel;
 
     if ( this.state.selectPanelFlg ) {
       outpanel = filterTypeSelectionPanel;
-    } else {
-      outpanel = "This is not selection ..."
-    }
+    } 
+
+    // if ( this.state.showFullListFlg) {
+    //   outputPanel = listPanel
+    // }
+
     let outputPanel = (
       <div>
         <div className="row">
-          <div className="col-6">
+          <div className="col">
             {outpanel}
             {buttonPanel}
+            {listPanel}
           </div>
         </div>
       </div>
     )
+
+    
     return (
       <div>
         {outputPanel}
