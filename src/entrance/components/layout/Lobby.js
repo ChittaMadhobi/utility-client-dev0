@@ -9,7 +9,7 @@
 import React, { Component } from "react";
 import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 
 import axios from "axios";
 
@@ -314,6 +314,15 @@ class Lobby extends Component {
             style={{ cursor: this.state.disabled ? "default" : "pointer" }}
           >
             <b>Overview</b>
+          </button>
+          &nbsp;&nbsp;
+          <button
+            className="btn-lobby-starthere"
+            type="button"
+            // onClick={this.openAlertModal("tokenInput")}
+            style={{ cursor: this.state.disabled ? "default" : "pointer" }}
+          >
+            <Link to='/logDash' className="text-white"> <b>Log System</b> </Link>
           </button>
         </div>
         <div className="bottom_spaces" />
