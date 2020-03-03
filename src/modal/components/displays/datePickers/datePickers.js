@@ -37,6 +37,7 @@ class datePickers extends Component {
       let listout = false;
       if ( ret.data.Msg.length > 0) {
         console.log('inside ret.length:', ret.data.Msg.length);
+        console.log('listout:', listout);
         listout = true
       }
       await this.setState({
@@ -51,11 +52,11 @@ class datePickers extends Component {
 
   render() {
     console.log('this.state:', this.state.retList);
-    let xx1 = this.state.retList[0];
-    console.log('xx:', xx1);
-    console.log('typeof:', typeof xx1);
-    console.log(JSON.stringify(xx1));
-    let yy = JSON.stringify(xx1);
+    // let xx1 = this.state.retList[0];
+    // console.log('xx:', xx1);
+    // console.log('typeof:', typeof xx1);
+    // console.log(JSON.stringify(xx1));
+    // let yy = JSON.stringify(xx1);
     // let zz = JSON.parse(yy); 
 
     let filterTypeSelectionPanel = (
@@ -156,35 +157,3 @@ class datePickers extends Component {
 }
 
 export default datePickers;
-
-  // <>
-   
-
-      {/* <form method="post" className="container ">
-        <div className="d-flex flex-row">    
-
-        <div className="form-group col-sm-4"> 
-        <div className="row">    
-          <label className="control-label col-sm-4">Start Date:</label>
-          <input className="form-control col-sm-4" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
-        </div>
-        </div>
-      
-        <div className="form-group col-sm-4 "> 
-        <div className="row">    
-          <label className="control-label col-sm-4">End Date:</label>
-          <input className="form-control col-sm-4" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
-        </div>
-        </div>
-
-        <div className="form-group col-sm-2 "> 
-          <button className="btn btn-primary " name="submit" type="submit">Submit</button>
-        </div>
-    
-        </div>
-
-     </form> */}
-
-
-
-      // </>
